@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebok - войдите или зарегистрируйтесь</title>
+  <meta charset="utf-8">
+  <style>
+
+    #header {
+      background-color: #3b5998;
+      background-image: url(https://bikealarmman.com/images/bam-facebook-logo.png);
+      background-size: 180px 55px;
+      background-repeat: no-repeat;
+      height: 82px;
+      background-position: 50px 25px;
+      font-size: 12px;
+
+      }
+
+    #main-part { background: green; }
+
+    #footer { background: blue; }
+
+    .login {
+      height: 100%;
+            padding-top: 13px;
+      margin: 0 auto;
+     }
+
+    .mail,
+    .password,
+    .button {
+      float: right;
+      background: #3b5998;
+      font-family: Helvetica, Arial, sans-serif;
+      padding: 0 0 0 14px;
+      border-radius: 2px;
+      font-size: inherit;
+    }
+
+    body { margin: 0; }
+
+    input {
+      border-color: #1d2a5b;
+      border-width: 1px;
+
+     }
+
+    input,
+    label {
+      display: block;
+    }
+
+    label {
+      color: #fff;
+      font-weight: normal;
+      padding-left: 1px;
+      padding-bottom: 4px;
+    }
+
+   .button input {
+      margin: 17px 0px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #3b5998;
+    }
+
+    a {
+      color: #9cb4d8;
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="header" >
+    <div class="login">
+      <div class="button">
+        <input type="submit" value="Вхід">
+      </div>
+      <div class="password">
+        <label>Пароль</label>
+        <input type="password" name="password">
+        <a href="#">Забули аккаунт?</a>
+      </div>
+      <div class="mail">
+        <label>Ел. адрeса або телефон</label>
+        <input type="text" name="email">
+      </div>
+    </div>
+  </div>
+  <div id="main-part">Тут має бути поле реєстрації та картинка</div>
+  <div id="footer">Вибір мов та інше</div>
+</body>
+</html>
